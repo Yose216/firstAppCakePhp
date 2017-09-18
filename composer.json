@@ -1,0 +1,10 @@
+{
+    "name": "FirstAppCake",
+    "require": {
+        "cakephp/cakephp": "2.9.*",
+        "cakephp/debug_kit": "2.2.*"
+    },
+    "config": {
+        "vendor-dir": "Vendor/"
+    }
+}
