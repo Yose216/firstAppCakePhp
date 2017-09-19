@@ -23,11 +23,9 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 	public $components = array(
-    	'DebugKit.Toolbar'
+    	'DebugKit.Toolbar',
+    	'Flash'
 	);
 
-	public function initialize() {
-    	$this->loadComponent('Flash');
-	}
-
+	public $helpers = array('Flash');
 }
