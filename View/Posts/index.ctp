@@ -20,3 +20,7 @@
     <?php endforeach; ?>
     <?php unset($post); ?>
 </table>
+<?php echo $this->Html->link(
+    'Ajouter un Post',
+    array('controller' => 'posts', 'action' => 'add')
+); ?>
